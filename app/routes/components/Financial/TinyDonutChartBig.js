@@ -9,13 +9,13 @@ import {
 import colors from './../../../colors';
 
 const data = [
-    {name: 'Group A', value: 400},
-    {name: 'Group B', value: 300},
-    {name: 'Group C', value: 300},
-    {name: 'Group C', value: 300}
+    {name: 'Group A', value: 35265},
+    {name: 'Group B', value: 8000},
+    {name: 'Group C', value: 48000},
+    {name: 'Group D', value: 9000},
 ];
 
-const COLORS = [ colors['primary'], colors['purple'], colors['success'], colors['yellow']];
+const COLORS = [ colors['success'], colors['primary'], colors['info'], colors['purple']];
 
 const TinyDonutChartBig = (props) => (
     <PieChart width={ 270 } height={ 270 }>

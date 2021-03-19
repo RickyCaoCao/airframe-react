@@ -18,7 +18,7 @@ const ProjectsList = () => (
         { /* START Table */}
         <div className="table-responsive-xl">
             <Table className="mb-0" hover>
-                <thead>
+                {/* <thead>
                     <tr>
                         <th className="align-middle bt-0">Star</th>
                         <th className="align-middle bt-0">Project</th>
@@ -29,7 +29,7 @@ const ProjectsList = () => (
                             Actions
                         </th>
                     </tr>
-                </thead>
+                </thead> */}
                 <tbody>
                     <TrTableProjectsList />
                 </tbody>

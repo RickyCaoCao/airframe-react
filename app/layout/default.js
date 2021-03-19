@@ -39,13 +39,14 @@ class AppLayout extends React.Component {
             <ThemeProvider initialStyle="light" initialColor="primary">
                 <Layout sidebarSlim favIcons={ favIcons }>
                     { /* --------- Navbar ----------- */ }
-                    <Layout.Navbar>
+                    {/* <Layout.Navbar>
                         <RoutedNavbars />
-                    </Layout.Navbar>
+                    </Layout.Navbar> */}
+                    {/* TODO(rickycaocao): remove sidebar at demo */}
                     { /* -------- Sidebar ------------*/ }
-                    <Layout.Sidebar>
+                    {/* <Layout.Sidebar>
                         <RoutedSidebars />
-                    </Layout.Sidebar>
+                    </Layout.Sidebar> */}
 
                     { /* -------- Content ------------*/ }
                     <Layout.Content>
